@@ -68,7 +68,7 @@ public class UserRepositoryIntegrationTest {
         assertEquals(Long.valueOf(1), users.get(0).getId());
         assertEquals("Mustafa", users.get(0).getName());
         assertEquals("Demir", users.get(0).getSurname());
-        assertEquals(Long.valueOf(1), users.get(1).getId());
+        assertEquals(Long.valueOf(2), users.get(1).getId());
         assertEquals("Ferhat", users.get(1).getName());
         assertEquals("Aykan", users.get(1).getSurname());
     }
